@@ -6,6 +6,7 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
+
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
             urun1.Fiyat = 15;
@@ -24,7 +25,6 @@ namespace Metotlar
                 Console.WriteLine(urun.Fiyat);
                 Console.WriteLine(urun.Aciklama);
                 Console.WriteLine("------------");
-
             }
             //encapsulation
 
