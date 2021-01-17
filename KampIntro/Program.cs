@@ -7,16 +7,17 @@ namespace KampIntro
         static void Main(string[] args)
         {
             //type safety
-            string kategoriEtiketi = "Katagori";
+            string kategoriEtiketi = "Katagori ";
             int ogrenciSayisi = 32000;
             double faizOrani = 1.45;
             bool sistemeGirisYapmisMi = true;
             double dolarDun = 7.35;
+
             double dolarBugun = 7.35;
 
             if (dolarDun>dolarBugun)
             {
-                Console.WriteLine("azalış butonu");
+                Console.WriteLine("azalış butonu ");
             }
             else if (dolarBugun>dolarDun)
             {
